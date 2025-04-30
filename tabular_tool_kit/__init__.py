@@ -5,4 +5,4 @@ __version__ = '0.1.0'
 from .splitter import CSVSplitterConverter
 from .cli import main
 
-__all__ = ['TabularToolKitConverter', 'main']
+__all__ = ['CSVSplitterConverter', 'main']

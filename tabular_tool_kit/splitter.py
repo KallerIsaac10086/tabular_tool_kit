@@ -8,7 +8,7 @@ import multiprocessing
 from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
 
-class TabularToolKitConverter:
+class CSVSplitterConverter:
     def __init__(self, input_file, output_dir, input_format='csv', output_format='xlsx', max_size_mb=95, verbose=True):
         """
         新增参数:

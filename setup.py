@@ -7,15 +7,14 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name="tabular_tool_kit",
-    version="1.0.2",
-    author="CPTK Team",
-    author_email="example@example.com",
+    version="1.0.3",
+    author="Kaller",
+    author_email="sjy84789@gmail.com",
     description="CSV处理工具包 (CSV Process Tool Kit)",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/tabular_tool_kit",
-    packages=find_packages() + ['XlsxWriter'],
-    package_data={'XlsxWriter': ['*', '**/*']},
+    url="https://github.com/KallerIsaac10086/tabular_tool_kit",
+    packages=find_packages(),
     package_dir={'': '.'},
     include_package_data=True,
     dependency_links=[],
@@ -37,5 +36,4 @@ setup(
         ],
     },
     # 保留第22行的url声明
-    # 删除第39行重复的url参数
 )
