@@ -70,18 +70,18 @@ def main():
     
     # 创建参数解析器
     parser = argparse.ArgumentParser(description=help_text['description'], prog=help_text['prog'])
-        # 添加格式参数
+    # 添加格式参数
     parser.add_argument('input_file', help=help_text['input_file'])
     parser.add_argument('output_dir', help=help_text['output_dir'])
     parser.add_argument('-m', '--max-size', type=float, default=95, help=help_text['max_size'])
     parser.add_argument('-if', '--input-format', 
-                       choices=['csv', 'xlsx'], 
-                       default='csv',
-                       help=help_text['input_format'])
+                        choices=['csv', 'xlsx'], 
+                        default='csv',
+                        help=help_text['input_format'])
     parser.add_argument('-of', '--output-format',
-                       choices=['csv', 'xlsx'],
-                       default='xlsx',
-                       help=help_text['output_format'])
+                        choices=['csv', 'xlsx'],
+                        default='xlsx',
+                        help=help_text['output_format'])
     parser.add_argument('-q', '--quiet', action='store_true', help=help_text['quiet'])
     parser.add_argument('-v', '--version', action='store_true', help=help_text['version'])
     
@@ -103,7 +103,7 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
     
     # 创建处理器并执行
-        processor = CSVSplitterConverter(
+    processor = CSVSplitterConverter(
         args.input_file,
         args.output_dir,
         input_format=args.input_format,
