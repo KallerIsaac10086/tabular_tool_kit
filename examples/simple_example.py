@@ -14,7 +14,7 @@ import random
 # 注意：安装包后不需要这一步
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from cptk import CSVSplitterConverter
+from tabular_tool_kit import CSVSplitterConverter
 
 def create_sample_csv(filename, rows=10000):
     """
