@@ -1,4 +1,4 @@
-# CPTK - CSV处理工具包 (CSV Process Tool Kit)
+# Tabular Tool Kit - 表格数据处理工具包 (Tabular Data Processing Toolkit)
 
 [English](#english) | [中文](#中文)
 
@@ -6,7 +6,7 @@
 
 ### 简介
 
-CPTK (CSV Process Tool Kit) 是一个高性能的CSV文件处理工具包，专为处理大型CSV文件而设计。它能够将大型CSV文件拆分成多个小文件，并自动转换为Excel格式，解决了Excel无法打开超过100万行数据的限制问题。
+Tabular Tool Kit 是一个高性能的表格数据处理工具包，专为处理大型CSV文件而设计。它能够将大型CSV文件拆分成多个小文件，并自动转换为Excel格式，解决了Excel无法打开超过100万行数据的限制问题。
 
 ### 特点
 
@@ -19,7 +19,7 @@ CPTK (CSV Process Tool Kit) 是一个高性能的CSV文件处理工具包，专�
 ### 安装
 
 ```bash
-pip install cptk
+pip install tabular_tool_kit
 ```
 
 ### 使用方法
@@ -95,7 +95,7 @@ CPTK (CSV Process Tool Kit) is a high-performance CSV file processing toolkit de
 ### Installation
 
 ```bash
-pip install cptk
+pip install tabular_tool_kit
 ```
 
 ### Usage
@@ -156,4 +156,6 @@ output_directory/
 
 ## License
 
-[!License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+Licensed under the Apache License, Version 2.0

@@ -14,7 +14,7 @@ def get_help_text(lang='zh'):
         return {
             'prog': '高性能多线程CSV处理工具包',
             'description': '''
-            CPTK - CSV处理工具包 (CSV Process Tool Kit)
+            Tabular Tool Kit - 表格数据处理工具包 (Tabular Data Processing Toolkit)
             功能说明:
             1. 预先计算文件大小和行数，智能确定拆分数量
             2. 自动检测CPU核心数并充分利用多线程性能
@@ -78,7 +78,13 @@ def main():
     # 显示版本信息
     if args.version:
         from . import __version__
-        print(f"CPTK v{__version__}")
+        # 版本输出更新
+        print(f"Tabular Tool Kit v{__version__}")
+        
+        # 帮助文档标题更新
+        'description': '''
+        Tabular Tool Kit - 表格数据处理工具包...
+        '''
         return
     
     # 检查文件是否存在

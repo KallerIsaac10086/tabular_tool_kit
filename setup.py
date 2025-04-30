@@ -7,7 +7,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name="tabular_tool_kit",
-    version="1.0.4",
+    version="1.0.5",
     author="Kaller",
     author_email="sjy84789@gmail.com",
     description="CSV处理工具包 (CSV Process Tool Kit)",
